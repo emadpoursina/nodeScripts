@@ -1,3 +1,7 @@
+/**
+ * Generate an sql command from json file
+ */
+
 const fs = require("fs");
 const readLine = require("readline");
 const { spawn } = require("child_process");
