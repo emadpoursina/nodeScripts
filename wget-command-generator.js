@@ -3,7 +3,11 @@
 
 const getStdin = require('get-stdin');
 
-const args = require('minimist')(process.)
+/**
+ * It will generate wget commands for
+ * downloading a series with template
+ * e.g: /*S{0-9}{0-9}E{0-9}{0-9}\*\/
+ */
 
 const startEpisode = 1;
 const endEpisode = 13;
